@@ -10,16 +10,16 @@ public class CompareNumbers {
 
         String evenNumber = "Even: " + isEven(number);
         System.out.println(evenNumber);
-        
+
         String positiveNumber = "Positive: " + isPositive(number);
         System.out.println(positiveNumber);
     }
     public static boolean isEven(int number) {
-       boolean even = number % 2 == 0;
-       return even;
+        return number % 2 == 0;
+
     }
     public  static boolean isPositive(double number) {
-        boolean positive = number > 0;
-        return positive;
+        return number > 0;
+
     }
 }
