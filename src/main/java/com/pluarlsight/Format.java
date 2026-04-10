@@ -17,8 +17,8 @@ public class Format {
 
     }
     public static String formatName(String first, String last) {
-        String fullName = last + ", " + first;
-        return fullName;
+        return last + ", " + first;
+
 
     }
 }
